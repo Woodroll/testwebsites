@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import './Calendar.css'
+import EventsList from './components/eventlist';
+import Calendar from './components/calendar';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>Hello World!</p>
       </header>
+    <body>
+      <p>Are you there? It is me, Jake!</p>
+      <EventsList />
+      <Calendar />   
+    </body> 
     </div>
   );
 }
